@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic List Testing for IndexedUnsortedList">
+
+  <test name="Basic Tests" verbose="2"> 
+  	<parameter name="listType" value="singleLinkedList"/>   
+    <classes>     
+      <class name="ConstructorTest"/>
+      <class name="EmptyListTests"/>
+      <class name="A_Tests"/>
+      <class name="AB_Tests"/>
+      <class name="ABC_Tests"/>
+    </classes>
+  </test> <!-- Basic Tests -->
+</suite> <!-- Basic List Testing for IndexedUnsortedList -->
